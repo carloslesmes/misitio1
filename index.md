@@ -6,6 +6,8 @@
 
 ## Update title
 
+Un texto cualquiera.
+
 ## Update config.md file
 
 ## Create a table of contents
@@ -20,7 +22,16 @@
 
 ## How to render math equations
 
+$$ \int_0^1 \frac{1}{x} dx $$
+
 ## How to insert Julia code (with outputs)
+
+Hola
+```julia:./ex11
+rand(5,5)
+``` 
+
+\show{./ex11}
 
 ## How to insert a table from CSV file
 
