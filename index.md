@@ -2,23 +2,37 @@
 @def hasmath = true
 @def hascode = true
 
-# Set up
-
-## Update title
-
-Un texto cualquiera.
-
-## Update config.md file
-
-## Create a table of contents
-
 \toc 
+# Introducción
 
-## Upload using github desktop
+Esta página se desarrolla usando el paquete `Franklin.jl` de Julia, el cual permite correr código Julia.
 
-# Examples 
+# Estadística con Julia
 
-## How to center text
+```julia:./ex01
+using Dates
+now()
+``` 
+\show{./ex01}
+
+## Requisitos
+
+
+## Paquetes para Estadística
+
+
+
+# Ejemplos
+
+```julia:./ex02
+using Plots, StatsPlots
+gr()
+p=histogram(randn(100))
+display(p)
+```
+\show{./ex02}
+
+
 
 ## How to render math equations
 
@@ -34,6 +48,8 @@ rand(5,5)
 \show{./ex11}
 
 ## How to insert a table from CSV file
+
+
 
 ## How to insert a clickable thumbnail to a Youtube video
 
