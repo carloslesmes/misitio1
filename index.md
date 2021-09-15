@@ -49,9 +49,17 @@ rand(5,5)
 
 ## How to insert a table from CSV file
 
+\tableinput{}{./tableinput/expr.csv}
 
+@@source
+Fuente: Wiki
+@@
 
 ## How to insert a clickable thumbnail to a Youtube video
+
+~~~
+<iframe width="640" height="360" src="https://www.youtube.com/embed/wQuVg0p6TE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+~~~
 
 ## How to inject raw HTML
 

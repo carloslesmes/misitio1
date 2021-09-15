@@ -1,3 +1,15 @@
+/* table r */
+
+th{
+  background-color: navy;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(odd) {
+  background: lightgray;
+}
+
 /* ==================================================================
     VARIABLES
 ================================================================== */
