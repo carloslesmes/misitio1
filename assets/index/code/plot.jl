@@ -2,4 +2,4 @@
 using Plots, StatsPlots
 x = rand(100)
 plot(x, st=:histogram) 
-savefig(joinpath(@OUTPUT, "sinc.svg"))
+savefig(joinpath(@OUTPUT,"sinc.svg"))
