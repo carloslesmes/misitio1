@@ -24,13 +24,13 @@ now()
 
 # Ejemplos
 
-```julia:./ex02
+```julia:plot
 using Plots, StatsPlots
-gr()
-p=histogram(randn(100))
-display(p)
+x = rand(100)
+plot(x, st=:histogram) 
+savefig(joinpath(@OUTPUT, "sinc.svg"))
 ```
-\output{./ex02}
+\fig{sinc}
 
 
 
@@ -58,7 +58,7 @@ Fuente: Wiki
 ## How to insert a clickable thumbnail to a Youtube video
 
 ~~~
-<iframe width="640" height="360" src="https://www.youtube.com/embed/wQuVg0p6TE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="320" height="180" src="https://www.youtube.com/embed/wQuVg0p6TE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ~~~
 
 ## How to inject raw HTML
