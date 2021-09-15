@@ -2,7 +2,8 @@
 @def hasmath = true
 @def hascode = true
 
-\toc 
+\toc
+
 # Introducción
 
 Esta página se desarrolla usando el paquete `Franklin.jl` de Julia, el cual permite correr código Julia.
@@ -12,15 +13,13 @@ Esta página se desarrolla usando el paquete `Franklin.jl` de Julia, el cual per
 ```julia:./ex01
 using Dates
 now()
-``` 
+```
+
 \show{./ex01}
 
 ## Requisitos
 
-
 ## Paquetes para Estadística
-
-
 
 # Ejemplos
 
@@ -28,22 +27,25 @@ now()
 using Plots, StatsPlots
 x = rand(100)
 plot(x, st=:histogram) 
-savefig(joinpath(@OUTPUT, "sinc.svg"))
+savefig(joinpath(@OUTPUT,"sinc.svg")) 
 ```
+
 \fig{sinc}
-
-
 
 ## How to render math equations
 
-$$ \int_0^1 \frac{1}{x} dx $$
+$$
+\int_0^1 \frac{1}{x} dx
+
+$$
 
 ## How to insert Julia code (with outputs)
 
 Hola
+
 ```julia:./ex11
 rand(5,5)
-``` 
+```
 
 \show{./ex11}
 
@@ -62,8 +64,6 @@ Fuente: Wiki
 ~~~
 
 ## How to inject raw HTML
-
-
 
 <!-- # Franklin syntax sandbox
 
