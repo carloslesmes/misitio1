@@ -30,7 +30,7 @@ gr()
 p=histogram(randn(100))
 display(p)
 ```
-\show{./ex02}
+\output{./ex02}
 
 
 
