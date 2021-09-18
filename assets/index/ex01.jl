@@ -1,3 +1,3 @@
 # This file was generated, do not modify it. # hide
 using Dates
-now()
+Dates.format(now(),"Y-M-d")
