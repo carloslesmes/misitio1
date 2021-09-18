@@ -6,13 +6,13 @@
 
 # Introducción
 
-Esta página se desarrolla usando el paquete `Franklin.jl` de Julia, el cual permite correr código Julia.
+Esta página se desarrolla usando el paquete `Franklin.jl` de Julia, el cual permite correr código Julia. 
 
 # Estadística con Julia
 
 ```julia:./ex01
 using Dates
-now()
+Dates.format(now(),"Y-M-d")
 ```
 
 \show{./ex01}
@@ -27,7 +27,7 @@ now()
 using Plots, StatsPlots
 x = rand(100)
 plot(x, st=:histogram) 
-savefig(joinpath("/Users/carloslesmes/Dropbox/FRANK/misitio/_assets/index/code","sinc.svg")) 
+savefig(joinpath("/Users/carloslesmes/Dropbox/FRANK/misitio1/_assets/","sinc.svg"))
 ```
 
 \fig{sinc}
@@ -57,13 +57,14 @@ rand(5,5)
 Fuente: Wiki
 @@
 
-## How to insert a clickable thumbnail to a Youtube video
+## ¿Cómo instalar Julia?
+
+
 
 ~~~
 <iframe width="320" height="180" src="https://www.youtube.com/embed/wQuVg0p6TE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ~~~
 
-## How to inject raw HTML
 
 <!-- # Franklin syntax sandbox
 
