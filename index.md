@@ -19,6 +19,23 @@ Dates.format(now(),"Y-M-d")
 
 ## Requisitos
 
+Inicialmente veremos como crear datos en Julia para ser utilizados posteriormente. Hola.
+
+```julia
+
+```
+
+using Statistics, StatsBase
+x=1:10
+y=rand(15)
+z=randn(20)
+w=[12,43,25,34,23,16,19]
+v=2:3:50
+
+```julia
+
+```
+
 ## Paquetes para Estadística
 
 # Ejemplos
@@ -53,18 +70,11 @@ rand(5,5)
 
 \tableinput{}{./tableinput/expr.csv}
 
-@@source
-Fuente: Wiki
-@@
-
 ## ¿Cómo instalar Julia?
-
-
 
 ~~~
 <iframe width="320" height="180" src="https://www.youtube.com/embed/wQuVg0p6TE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ~~~
-
 
 <!-- # Franklin syntax sandbox
 
